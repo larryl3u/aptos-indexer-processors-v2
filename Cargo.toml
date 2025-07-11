@@ -20,7 +20,7 @@ rust-version = "1.78"
 ahash = { version = "0.8.7", features = ["serde"] }
 allocative = "0.3.3"
 allocative_derive = "0.3.3"
-anyhow = "1.0.98"
+anyhow = "^1.0"
 # Do NOT enable the postgres_full feature here, it is conditionally enabled in a feature
 # block in the Cargo.toml file for the processor crate.
 # https://github.com/aptos-labs/aptos-indexer-processors/pull/325
